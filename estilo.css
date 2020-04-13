@@ -4,7 +4,8 @@
 }
 
 body {
-   background-color: #f2f2f2;
+   background-color: #080528;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -22,9 +23,10 @@ body {
 }
 
 #navbar {
-    background: #ffffff;
+    background: #fff;
     height: 47px;
-    border: 1px solid #000000;
+    border: 1px solid #080528;
+    border-radius: 5px;
     
 }
 
@@ -44,24 +46,30 @@ body {
    
    .logo {
        text-indent: -3000px;
-       width: 560px;
+       width: 1024px;
        height: 300px;
        margin: 0 auto;
-       background: url(imagens/logo.jpg) no-repeat;
+       background: url(imagens/logo2.png) #080528 center no-repeat;
        top: 0;
        left: 0;
    }
 
    #conteudo-esquerdo {
        float: left;
-       border: 1px solid #000;
+      
+       
    }
+
+  
 
    #conteudo-direito {
        float: right;
        width: 840px;
        height: 650px;
-       border: 1px solid #000;
+
+       background-color: #fff;
+       border-radius: 5px;
+       margin-bottom: 15px;
    }
 
    #conteudo-esquerdo, #conteudo-direito {
@@ -69,21 +77,28 @@ body {
    }
 
     #foto {
-        background: black;
+        background: #fff;
+        border-radius: 5px;
         width: 165px;
         height: 210px;
+        
 }
 
     #perfil {
+        padding-top: 15px;
         margin-left: 13px;
         margin-top: -3px;
-        /*width: 140px;
+        
+        /*
+        width: 140px;
         height: 180px;
         background-image: url(imagens/perfil2.JPG)  ; */
     }
 
     #submenu {
         margin-top: 15px;
+        border: 1px solid #fff;
+        border-radius: 5px;
 }
 
     #submenu a {
@@ -94,6 +109,7 @@ body {
         padding: 10px;
         margin: -2px;
         border: 1px solid #000;
+        border-radius: 7%;
     }
 
     #submenu a:hover {
@@ -111,8 +127,24 @@ body {
         
         width: 1024px;
         height: 30px;
-        background-color: black;
-        color: #fff;
+        background-color: #fff;
+        color: #000;
         margin: 0 auto;
         text-align: center;
+        line-height: 28px;
+        border-radius: 5px
+    }
+
+    #sm h2 {
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        background: #080528;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+
+    #sm p {
+        font-size: 16px;
+        padding: 5px 0 5px 5px;
     }
