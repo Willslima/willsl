@@ -83,6 +83,17 @@ body {
        margin-bottom: 15px;
    }
 
+   #conteudo-direito-projetos {
+       margin-top: 10px;
+    float: right;
+    width: 1024px;
+    height: 100%;
+
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
    #conteudo-esquerdo, #conteudo-direito {
        margin-top: 10px;
    }
@@ -204,4 +215,42 @@ body {
 
     #logoA .logoArbyte {
         border-radius: 7px;
+    }
+
+    #cards {
+
+        margin-left: 6px;
+        
+    }
+    
+    .box {
+        float: left;
+
+        width: 190px;
+        margin: 0 auto;
+        padding: 10px 6px;
+    }
+
+    .box h4 {
+        border: solid 1px #000;
+        background: #000;
+        color: #fff;
+        line-height: 25px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .box img {
+        border-radius: 5px;
+    }
+
+    .box a:hover {
+        background: #ffffff;
+        opacity: 0.5;
+    }
+
+    #cards p {
+        clear: both;
+        font-size: 12px;
+        font-style: italic;
     }
